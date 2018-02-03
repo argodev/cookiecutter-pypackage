@@ -17,7 +17,7 @@ Features
 
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``py.test``
 * Travis-CI_: Ready for Travis Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3, 3.4, 3.5
+* Tox_ testing: Setup to easily test for Python 2.7, 3.4, 3.5, 3.6
 * Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 * Bumpversion_: Pre-configured version bumping with a single command
 * Auto-release to PyPI_ when you push a new tag to master (optional)
@@ -74,21 +74,15 @@ For more details, see the `cookiecutter-pypackage tutorial`_.
 Not Exactly What You Want?
 --------------------------
 
-Don't worry, you have options:
-
 If you have differences in your preferred setup, I encourage you to fork this
 to create your own version. Or create your own; it doesn't strictly have to
 be a fork.
 
-* Once you have your own version working, add it to the Similar Cookiecutter
-  Templates list above with a brief description.
+It's up to you whether or not to rename your fork/own version. Do whatever you
+think sounds good.
 
-* It's up to you whether or not to rename your fork/own version. Do whatever
-  you think sounds good.
-
-* I strongly suggest that you visit the page of the parent project (this is a
-  fork of their work) at https://github.com/audreyr/cookiecutter-pypackage
-
+I strongly suggest that you visit the page of the parent project (this is a
+fork of their work) at https://github.com/audreyr/cookiecutter-pypackage
 
 
 .. _Travis-CI: http://travis-ci.org/
